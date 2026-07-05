@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, pihu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Petit+Formal+Script&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-animation" id="bgAnimation">
+  <div class="bg-blob blob1"></div>
+  <div class="bg-blob blob2"></div>
+  <div class="bg-blob blob3"></div>
+</div>
+
+<!-- SECTION 1: HERO -->
+<section class="section" id="hero">
+  <div class="eyebrow">for my favorite person</div>
+  <h1 class="hero-title">Happy Birthday</h1>
+  <div class="name-script">Pihu 🤍</div>
+
+  <div class="countdown-row">
+    <div class="count-box"><div class="count-num" id="cd-days">00</div><div class="count-label">Days</div></div>
+    <div class="count-box"><div class="count-num" id="cd-hours">00</div><div class="count-label">Hours</div></div>
+    <div class="count-box"><div class="count-num" id="cd-mins">00</div><div class="count-label">Mins</div></div>
+    <div class="count-box"><div class="count-num" id="cd-secs">00</div><div class="count-label">Secs</div></div>
+  </div>
+  <div class="sub-line" id="cd-caption">until the world gets to celebrate you all over again</div>
+
+  <div class="scroll-hint"><span>♡</span>scroll ↓</div>
+</section>
+
+<!-- SECTION 2: LETTER -->
+<section class="section" id="letter">
+  <div class="letter-card">
+    <div class="letter-title">A little something before the big day</div>
+     <p>Dearest Bestie,</p>
+    <p>There was a version of my life before you came along, and while it wasn't bad, it definitely wasn't this colorful. Somehow, your friendship found all the quiet corners of my world and filled them with laughter, comfort, and memories I'll always treasure.</p>
+    <p>You're the kind of person who makes ordinary days feel unforgettable—the one who knows how to make me laugh when I don't feel like smiling, who listens without judgment, and who reminds me that I'm never alone, even on my hardest days.</p>
+    <p>On your birthday, I just want you to know that I see you. I see your kindness, your strength, your dreams, your silly side, your caring heart, and even the moments when you doubt yourself. Every part of you makes you the incredible person I'm lucky enough to call my best friend.</p>
+    <p>Thank you for every late-night conversation, every shared joke, every piece of advice, every random adventure, and every moment you've stood by my side. Life feels a little lighter and a lot more meaningful because you're in it.</p>
+    <p>I hope this year brings you everything you've been quietly wishing for. May you find happiness in the little things, courage in the difficult moments, and countless reasons to smile every single day.</p>
+    <p>Happy Birthday, my best friend. Thank you for being my constant, my biggest cheerleader, and one of the best people I've ever known. No matter where life takes us, I'll always be grateful that our paths crossed.</p>
+    <p>Here's to another year of unforgettable memories, endless laughter, and a friendship that only grows stronger with time.</p>
+    <p>With lots of love and endless appreciation. 🤍</p>
+        <div class="letter-signoff">— always yours, Bestfriend</div>
+  </div>
+</section>
+
+<!-- SECTION 3: BALLOONS -->
+<section class="section" id="balloons">
+  <h2 class="section-title">5 reasons, of a million</h2>
+  <div class="section-hint">tap a balloon</div>
+  <div class="balloon-row" id="balloonRow"></div>
+</section>
+
+<!-- SECTION 4: CAKE -->
+<section class="section" id="cake">
+  <h2 class="section-title">Make a wish</h2>
+  <div class="section-hint" id="cakeHint">tap the flame to blow out the candle</div>
+  <div class="cake-wrap">
+    <div class="candle">
+      <div class="flame" id="flame"></div>
+      <div class="smoke" id="smoke"></div>
+    </div>
+    <div class="cake-body">
+      <div class="tier-top"></div>
+      <div class="tier-bottom"></div>
+    </div>
+    <div class="cake-shadow"></div>
+  </div>
+  <div class="wish-reveal" id="wishText">Wherever this next year takes you, I hope it hands you exactly what you've been quietly hoping for.</div>
+</section>
+
+<!-- SECTION 5: FINAL -->
+<section class="section" id="final">
+  <div class="final-title">Happy Birthday, Pihu.</div>
+  <div class="final-sub">Here's to another year of you being effortlessly, entirely you.</div>
+  <div class="final-made">made with love, just for you</div>
+</section>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-card">
+    <div class="photo-slot" id="modalPhoto">
+      <div class="heart-icon">📷</div>
+      <div>add your photo here</div>
+    </div>
+    <div class="modal-message" id="modalMessage"></div>
+    <button class="modal-close" id="modalClose">close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
